@@ -1,0 +1,7 @@
+import pdfkit
+
+def convert_to_pdf(docx_path, pdf_path):
+    pdfkit.from_file(docx_path, pdf_path)
+
+# Usage
+convert_to_pdf("modified_document.docx", "output_document.pdf")
